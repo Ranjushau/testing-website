@@ -1,0 +1,414 @@
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* background-attachment: fixed; */
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.logo a:hover{
+    padding: 10px;
+    color: white;
+   background-color: gray;
+}
+.menu ul li{
+    list-style-type: none;
+   
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+.menu ul li a:hover{
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}
+.section-one{
+    background-image: url('img/mac.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repet;
+    height: 600px;
+}
+.section-heding{
+    padding: 50px;
+}
+.section-heding h1{
+    font-family: "Raleway", sans-serif;
+    margin-top: 80px;
+    font-size: 65px;
+    color: white;
+}
+.section-heding p{
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(240, 240, 240);
+}
+.section-heding .button-heading{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 16px 20px;
+    color: #000!important;
+    background-color: rgb(223, 223, 223)!important;
+    border: none;
+}
+.section-heding .section-one-icon .fa{
+    margin-top: 150px;
+    color: rgb(151, 151, 151);
+    padding: 0px 7px;
+}
+.section-heding .section-one-icon .fa:hover{
+    color: honeydew;
+}
+
+
+
+/* about us start */
+
+.section-two{
+    text-align: center;
+    padding:128px 16px
+}
+.section-two h3{
+font-size: 30px;
+letter-spacing: 1.7;
+}
+.section-two h3{
+font-size: 30px;
+letter-spacing: 1.7;
+}
+.section-two p{
+margin-top: 30px;
+letter-spacing: 1.7;
+}
+.aboutus-content-box{
+    margin: 20px 0px;
+}
+
+.aboutus-content-box{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-box{
+    width: 23%;
+}
+.about-box .fa{
+    margin: 30px 0px;
+}
+.about-box h5{
+    font-size: 25px;
+    color: rgb(73, 73, 73);
+}
+.about-box p{
+    color: rgb(145, 144, 144);
+    font-style: italic;
+}
+
+/* section three ekhan theka start */
+
+.section-three{
+    /* color: #000; */
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 30px;
+}
+.sectionthree-textarea {
+/* border: 2px solid red; */
+height: 300px;
+}
+.sectionthree-textarea h3{
+font-size: 29px;
+margin-bottom: 20px;
+margin-top: 10px;
+color: darkslategrey;
+}
+.sectionthree-textarea p{
+    font-style: italic;
+margin-bottom: 40px;
+margin-top: 10px;
+color: rgb(104, 104, 104);
+}
+.sectionthree-textarea .buttonview{
+color: rgb(255, 255, 255);
+background-color: black;
+padding: 15px;
+text-decoration: none;
+}
+.sectionthree-imgarea img{
+ width: 600px;
+ height: 350px;
+}
+
+/* section four ekhan theka start */
+
+.section-four{
+    padding:128px 16px;
+}
+.the-t{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 58);
+}
+.secp{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(0, 0, 14);
+}
+.section-four-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-four-box{
+    width: 24%;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.sboxbody img{
+width: 400px;
+height: 233px;
+}
+.sboxbodytxt{
+    padding: 20px 17px;
+}
+.sboxbodytxt h3{
+    font-size: 24px;
+    color: rgb(0, 0, 51);
+    margin-bottom: 10px;
+}
+.sboxbodytxt .tag{
+    color: rgb(255, 166, 0);
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.sboxbodytxt p{
+    color: rgb(141, 140, 140);
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.sboxbodytxt .contactbutton{
+padding: 10px;
+width: 100%;
+}
+
+
+/* section five ekhan theka start */
+
+.sectionn-five{
+    color: #fff;
+    background-color: #616161;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec5content{
+    text-align: center;
+}
+.sec5content .large{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* sectionsix ekhan theka start */
+
+.section-six{
+    padding:128px 16px;
+}
+.center{
+    text-align: center;
+    font-size: 26px;
+    color: rgb(0, 0, 61);
+}
+.p-large{
+    margin-top: 10px;
+    text-align: center;
+    color: #616161;
+}
+.sectionsix-contait{
+    display: flex;
+    /* padding: 10px; */
+    justify-content: space-between;
+}
+.consiximg img{
+    width: 100%;
+}
+
+/* container seven start ekhan theka */
+
+.container-seven{
+    background-color: #f1f1f1;
+    padding: 64px 30px;
+}
+.container7content{
+    display: flex;
+    justify-content: space-between;
+}
+.contr7conttxt {
+    width: 48%;
+    /* border: 2px solid red; */
+}
+.contr7conttxt h3{
+    padding-top: 17px;
+    color: chocolate;
+    font-size: 27px;
+}
+.contr7conttxt p{
+    
+    /* margin: 27px 0px; */
+    color: rgb(138, 138, 138);
+    font-size: 17px;
+}
+.contr7contskill{
+    width: 47%;
+    /* border: 2px solid green; */
+}
+.wide{
+    padding: 17px 0px;
+    font-weight: 600;
+}
+.wide .fa{
+    padding: 0px 8px;
+}
+.background-color{
+    width: 100%;
+    height: 26px;
+    
+    background-color: gray;
+}
+.font-color{
+    text-align: center;
+    color: white;
+    width: 90%;
+    height: 26px;
+    background-color: rgb(89, 250, 142);
+}
+
+/* section eaight area start */
+.section-eight{
+   
+    background-color: #616161!important;
+}
+.pri{
+    text-align: center;
+    color: white;
+}
+.section-eight h3{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 12px;
+}
+.sectioneaight-contant{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+
+.section-eaight-box{
+    width: 32%;
+    /* border: 1px solid red; */
+    color: black;
+    background-color: white;
+}
+.section-eaight-box-content li{
+    padding: 16px 0px;
+    /* background-color: rgb(219, 217, 217); */
+}
+.wection-eaight-box-content li{
+    padding: 14px 0px;
+}
+.head{
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 57px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 27px;
+    align-items: center;
+}
+.button-signup{
+    padding: 16px 23px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+.button-signup:hover{
+    
+    background-color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
+/* section-nine start ekhan theka */
+
+.section-nine{
+    background-color: #f1f1f1;
+}
+
+.section-nine p{
+    color: #444444;
+    /* padding: 12px 0px; */
+    font-size: 19px;
+}
+.contact{
+    text-align: center;
+    font-size: 28px;
+}
+.sectp{
+    text-align: center;
+}
+
+form  input{
+    width: 100%;
+    padding: 10px 7px;
+    border: 1px solid #ccc!important;
+    margin: 7px 0px;
+}
+.sendmessage{
+    padding: 17px;
+    width: 20%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+/* footer start ekhan theka */
+.footer-area{
+    color: #fff;
+    background-color: #000;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+.button-tap{
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(233, 229, 229);
+    
+}
+.icon-footer{
+    margin-top: 24px;
+    margin-bottom: 19px;
+}
